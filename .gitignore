@@ -3,8 +3,8 @@
 /.idea
 /.vscode
 /dist
-/node_modules
-react/src/routers.zip
+**/node_modules
+**/package-lock.json
 /target
 .DS_Store
 .history/
