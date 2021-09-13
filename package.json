@@ -1,0 +1,19 @@
+{
+  "name": "federation-demos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "examples:install": "npm-run-all --serial install:*",
+    "examples:start": "npm-run-all --parallel start:*",
+    "install:main": "cd main && npm install",
+    "start:main": "cd main && npm run start",
+    "install:app1": "cd app1 && npm install",
+    "start:app1": "cd app1 && npm run start",
+    "install:app2": "cd app2 && npm install",
+    "start:app2": "cd app2 && npm run start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

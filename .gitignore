@@ -1,0 +1,10 @@
+/.cache
+/.happypack
+/.idea
+/.vscode
+/dist
+/node_modules
+react/src/routers.zip
+/target
+.DS_Store
+.history/

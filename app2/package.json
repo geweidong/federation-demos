@@ -1,0 +1,28 @@
+{
+  "name": "app2",
+  "version": "0.0.0",
+  "private": true,
+  "devDependencies": {
+    "@babel/core": "7.12.3",
+    "@babel/preset-react": "7.12.1",
+    "@webpack-cli/serve": "^1.1.0",
+    "babel-loader": "8.1.0",
+    "bundle-loader": "^0.5.6",
+    "html-webpack-plugin": "5.3.2",
+    "serve": "11.3.2",
+    "webpack": "5.24.3",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "4.1.0"
+  },
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack --mode production",
+    "serve": "serve dist -p 3002",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@babel/plugin-syntax-top-level-await": "^7.14.5",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  }
+}
