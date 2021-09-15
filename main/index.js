@@ -66,7 +66,7 @@ setDefaultMountApp('/app1');
  * Step4 启动应用
  */
 start({
-  // sandbox: false,
+  sandbox: false,
 });
 
 runAfterFirstMounted(() => {

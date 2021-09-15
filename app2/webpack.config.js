@@ -40,7 +40,7 @@ module.exports = {
     plugins: [
         new ModuleFederationPlugin({
             name: "app2plus",
-            library: { type: "window", name: "app2plus" },
+            library: { type: "var", name: "app2plus" },
             filename: "remoteEntry.js",
             exposes: {
                 "./Button": "./src/Button",
